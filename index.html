@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="style.css">
+  <script src="/jquery-ui.min.js"></script>
+  <script src="/jquery.min.js"></script>
+  
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-top">
+            <img src="/images/logo.svg" alt="logo" id="logo">
+            <button class="BtnTry">Try it Free</button>
+        </div>
+
+        <div class="hero">
+            <div class="hero-left">
+                <h2>Build The Community <br> Your Fans Will Love</h2>
+    
+                <p>
+                    Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+                    Create connections with your users as you engage in genuine discussion. 
+                </p>
+
+                <button class="BtnFree">Get Started for Free</button>
+            </div>
+            <div class="hero-right">
+                <img src="/images/illustration-mockups.svg" alt="illustration-mockups" id="mockups">
+            </div>
+        </div>
+    </header>
+
+    <section class="banners">
+        <div class="banner fade">
+            <div class="banner-text fade">
+                <h2>Grow Together</h2>
+
+                <p>
+                    Generate meaningful discussions with your audience and build a strong, loyal community. 
+                    Think of the insightful conversations you miss out on with a feedback form. 
+                </p>
+            </div>
+
+            <img src="/images/illustration-grow-together.svg" alt="illustration-grow-together" id="together">
+        </div>
+
+        <div class="banner fade">
+            <img src="/images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" id="flowing">
+
+            <div class="banner-text fade">
+                <h2>Flowing Conversations</h2>
+
+                <p>
+                    You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+                    have just-in-time loading for a more natural flow.
+                </p>
+            </div>
+        </div>
+
+        <div class="banner fade">
+            <div class="banner-text fade">
+                <h2>Your Users</h2>
+
+                <p>
+                    It takes no time at all to integrate Huddle with your app's authentication solution. 
+                    This means, once signed in to your app, your users can start chatting immediately.
+                </p>
+            </div>
+
+            <img src="/images/illustration-your-users.svg" alt="illustration-your-users" id="users">
+        </div>
+    </section>
+
+    <section class="community">
+        <div class="card fade">
+            <h2>Ready To Build Your Community?</h2>
+
+            <button class="BtnCommunity">Get Started For Free</button>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="info">
+            <div class="info-header">
+                <img src="/images/logo.svg" alt="logo" id="logoFooter">
+            </div>
+            <div class="info-content-left">
+                <img src="/images/icon-location.svg" alt="location" id="location">
+                <p id="p1">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua
+                </p>
+
+                <img src="/images/icon-phone.svg" alt="icon-phone" id="phone">
+                <p id="p2">
+                    +1-543-123-4567
+                </p>
+
+                <img src="/images/icon-email.svg" alt="icon-email" id="email">
+                <p id="p3">
+                    example@huddle.com 
+                </p>
+            </div>
+            <div class="info-content-center">
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">Career</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="info-content-right">
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <footer>
+    <p class="copyright">
+        &copy; Copyright 2018 Huddle. All rights reserved. 
+    </p>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/diogolopeswork">Diogo Lopes</a>.
+    </p>
+  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+        integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw=="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+        integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+        crossorigin="anonymous">
+    </script>
+  <script src="anim.js"></script>
+</body>
+</html>
